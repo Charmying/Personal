@@ -1,0 +1,149 @@
+.all-block {
+    width: 100%;
+    /* background-color: #ccc; */
+    display: flex;
+    margin-top: 200px;
+}
+
+.mid-block {
+    width: 50%;
+    height: 800px;
+    /* background-color: green; */
+}
+
+.mid-block-pic {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mid-block-pic img{
+    width: 400px;
+    height: 750px;
+}
+
+.right-block {
+    width: 50%;
+    height: 800px;
+    /* background-color: blue; */
+    margin-top: -30px;
+}
+
+.select {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.case-choose {
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.case-choose-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.case-choose-left {
+    width: 25%;
+}
+
+.case-choose-left img {
+    width: 100%;
+    height: 140px;
+}
+
+.case-choose-right {
+    width: 55%;
+}
+
+.case-choose-right p {
+    text-align: center;
+    margin-top: 65px;
+    color: #2F4F4F;
+    font-family: 'Courier New', Courier, monospace, cursive;          
+}
+
+.txt-input {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#txt-input {
+    width: 140%;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.connecting {
+    color: #2F4F4F;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ccc;
+    width: 220px;
+    text-align: center;
+    line-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.connecting img {
+
+    width: 30%;
+}
+
+.connecting p {
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace, cursive;          
+}
+
+.block-bottom {
+    margin-top: 70px;
+}
+
+.block-bottom .connecting {
+    color: #2F4F4F;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    width: 200px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.block-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 8px;
+}
+
+.block-bottom-button {
+    color: #2F4F4F;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    width: 150px;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+
+
+.case-choose-right {
+    font-size: 40px;
+}
+
+

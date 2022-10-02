@@ -1,0 +1,92 @@
+.header{
+    margin-top: 270px;
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.featured-accessories {
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.featured-accessories h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-left: 110px;
+    font-family: 'Courier New', Courier, monospace, cursive;
+}
+
+.featured-accessories-group {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.featured-accessories-group-box {
+    margin: 10px;
+    margin-top: 100px;
+}
+
+.featured-accessories-group-box-pic {
+    width: 276px;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(0.5) rotate(0deg) ;
+    transition: 1s;
+}
+
+.featured-accessories-group-box p {
+    font-family: 'Courier New', Courier, monospace, cursive;
+    font-size: 20px;
+}
+
+.featured-accessories-group-box-pic img {
+    width: 100%;
+    height: 350px;
+}
+
+.featured-accessories-group-box-content {
+    margin-top: 10px;
+    display: block;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.featured-accessories-group-box-content-name {
+    color: rgba(0,0,0,.6);
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.featured-accessories-group-box-pic:hover{
+    transform: scale(1) rotate(360deg) ;
+}
+
+.featured-accessories h2{
+    position:absolute;
+    right:0;
+    /* width:50px;
+    height:50px; */
+    /* background:#f00; */
+    animation-name:oxxo;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    font-family: 'Courier New', Courier, monospace, cursive;
+    font-size: 44px;
+}
+@keyframes oxxo{
+    from{
+        right:10%;
+    }
+    to{
+        right:80%;
+    }
+}
