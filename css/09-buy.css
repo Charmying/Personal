@@ -1,0 +1,182 @@
+.all-block {
+    margin-top: 230px;
+    /* background-color: #ccc; */
+    width: 100%;
+    /* height: 8000px; */
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: #2F4F4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.left-block {
+    /* background-color: #000; */
+    width: 40%;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+.buy-pic {
+    margin-top: 50px;
+}
+
+.buy-pic img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right-block {
+    /* background-color: red; */
+    width: 40%;
+    height: 1000px;
+    margin-top: 60px;
+}
+
+.buy-choose {
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: #fff; */
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discount {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.price {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.buy-choose-left h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace, cursive;          
+    color: #2f4f4f;
+}
+
+.select {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.quantity {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.shop-car {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.add-shop-car {
+    color: #2F4F4F;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 150px;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+
+.buy-choose-left {
+    width: 40%;
+    height: 420px;
+    /* background-color: pink; */
+}
+
+.buy-choose-left p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-choose-right {
+    width: 60%;
+    height: 420px;
+    /* background-color: orange; */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    /* width: 200px; */
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.item img {
+    width: 150px;
+    height: 180px;
+    
+ }
+
+.buy-choose-bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+
+.box {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+

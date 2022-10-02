@@ -1,0 +1,55 @@
+.return {
+    width: 100%;
+    margin: auto;
+    margin-top: 190px;
+    line-height: 1.5;
+    color: #2F4F4F;
+}
+
+.return-all {
+    width: 70%;
+    margin: auto;
+}
+
+.return h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    font-family:  "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
+.return h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace, cursive;      
+}
+
+.h3{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace, cursive;      
+}
+
+.return p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace, cursive;      
+}
+
+.return li {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.hr {
+    margin-top: 50px;
+    color: #000;
+    border: 1px solid #000 ;
+}
+

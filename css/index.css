@@ -1,0 +1,297 @@
+/* 第三頻 */
+.third-screen {
+    display: flex;
+    padding: 30px;
+    gap: 60px;
+    margin-top: 190px;
+}
+
+.cellphone-model {
+    width: 30%;
+    
+}
+
+.cellphone-model h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+    color: #2F4F4F;
+    font-family: cursive;
+}
+
+.all-model {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+
+.all-model li a {
+    color: #2F4F4F;
+}
+
+.featured {
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+.featured h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 60px;
+    color: #2F4F4F;
+}
+
+.featured-series {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.featured-series-content:nth-child(1) {
+    margin-top: 50px;
+}
+
+.featured-series-content:nth-child(3) {
+    margin-top: 50px;
+}
+
+.featured-series-content-pic-txt img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.featured-series-content-pic-txt figcaption {
+    margin-top: 20px;
+    color: #2F4F4F;
+}
+
+.featured-series-content-pic-txt figcaption a {
+    color: #2F4F4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 精選配件 */
+.featured-accessories {
+    align-items: center;    
+    margin-top: 100px;
+}
+
+.featured-accessories h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+    color: #2F4F4F;
+}
+
+.featured-accessories-group {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.featured-accessories-group-box {
+    margin: 10px;
+}
+
+.featured-accessories-group-box-pic {
+    width: 276px;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.featured-accessories-group-box-pic img {
+    width: 100%;
+}
+
+.featured-accessories-group-box-content {
+    margin-top: 10px;
+    display: block;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.featured-accessories-group-box-content-name {
+    color: rgba(0,0,0,.6);
+}
+
+.featured-accessories-group-box-content-price {
+    color: rgba(0,0,0,.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 最新消息 */
+.new-information {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.new-information h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+    color: #2F4F4F;
+}
+
+.new-information-news {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.new-information .new-information-news:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.new-information .new-information-news:nth-child(2n) .pic {
+    margin-right: 0;
+}
+
+.new-information .new-information-pic {
+    width: 100%;
+}
+
+.new-information .new-information-pic img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.new-information .new-information-txt {
+    width: 100%;
+    padding: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    margin: auto 0;
+}
+
+.seventh-screen {
+    width: 100%;
+    height:640px;
+    background-image: url(../pic/1400x.webp); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: .5;
+}
+
+.seventh-screen-allblock {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.seventh-screen-block{
+    margin-top: 300px;
+    width: 70%;
+}
+
+.seventh-screen-circle{
+    background-color: #000;
+    border-radius: 50%;
+    height: 190px;
+    width: 50%;
+    margin: auto;
+}
+
+.seventh-screen-block-top{
+    color: #fff;
+    display: inline-block;
+}
+
+.seventh-screen-block-bottom{
+    color: #fff;
+        display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 通用 */
+a {
+    text-decoration: none;
+}
