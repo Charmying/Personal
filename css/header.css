@@ -173,7 +173,7 @@ ul.search a:hover { /* 滑鼠滑入按鈕變色*/
  animation: silder 15s linear infinite;
 }
 .coverflow>a>img{
-    width: 110%;
+    width: 100%;
 }
 /*動畫關鍵影格*/
 @-webkit-keyframes silder {
